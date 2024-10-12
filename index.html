@@ -3,46 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Your Name | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Your Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+        }
+        p {
+            text-align: center;
+            font-size: 1.2em;
+        }
+        .projects {
+            margin-top: 30px;
+        }
+        .project {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            transition: box-shadow 0.3s ease;
+        }
+        .project:hover {
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+        .project-title {
+            font-size: 1.5em;
+            color: #4CAF50;
+        }
+        .project-description {
+            font-size: 1.1em;
+            margin: 10px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Your Name</h1>
-        <p>Developer | Front-End | Back-End | Full-Stack</p>
-    </header>
 
-    <section>
-        <h2>About Me</h2>
-        <p>A short introduction about your skills and experience.</p>
-    </section>
+<header>
+    <h1>Your Name's Portfolio</h1>
+    <p>Welcome to my portfolio! I'm a developer with skills in front-end, back-end, and full-stack development.</p>
+</header>
 
-    <section>
-        <h2>Projects</h2>
-        <ul>
-            <li><a href="https://github.com/yourusername
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    background-color: #f4f4f4;
-}
+<section>
+    <h1>My Projects</h1>
 
-header {
-    text-align: center;
-    margin-bottom: 50px;
-}
+    <div class="projects">
+        <div class="project">
+            <h2 class="project-title">Project 1: Awesome Web App</h2>
+            <p class="project-description">This is a web application built with HTML, CSS, and JavaScript. It showcases my skills in front-end development.</p>
+            <a href="https://github.com/yourusername/project1">View on GitHub</a>
+        </div>
 
-h1 {
-    font-size: 3em;
-}
+        <div class="project">
+            <h2 class="project-title">Project 2: API Integration</h2>
+            <p class="project-description">A back-end project where I integrated a third-party API to fetch and display data dynamically.</p>
+            <a href="https://github.com/yourusername/project2">View on GitHub</a>
+        </div>
 
-section {
-    margin-bottom: 40px;
-}
+        <div class="project">
+            <h2 class="project-title">Project 3: Full Stack Blog</h2>
+            <p class="project-description">This is a full-stack blog application using Node.js, Express, and MongoDB. Users can write, edit, and delete posts.</p>
+            <a href="https://github.com/yourusername/project3">View on GitHub</a>
+        </div>
+    </div>
+</section>
 
-footer {
-    text-align: center;
-    margin-top: 50px;
-}
+<footer>
+    <p>Created by Your Name | <a href="mailto:your.email@example.com">Contact Me</a></p>
+</footer>
+
+</body>
+</html>
+
